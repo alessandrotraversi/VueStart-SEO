@@ -1,0 +1,11 @@
+// imports external resources
+@import "../node_modules/breakpoint-sass/stylesheets/breakpoint";
+@import "../node_modules/compass-mixins/lib/compass";
+
+// imports own ITCSS project
+@import "assets/styles/settings/settings",
+"assets/styles/generic/generic",
+"assets/styles/elements/elements",
+"assets/styles/objects/objects",
+"assets/styles/components/components",
+"assets/styles/utilities/utilities";
